@@ -526,11 +526,11 @@
       }
 
       // ❗ Mover cada 1 segundo (puedes ajustar el tiempo)
-      setInterval(moverNo, 400);
 
       // (opcional) si quieres aún que huya al tocar:
       noBtn.addEventListener('mouseenter', moverNo);
       noBtn.addEventListener('touchstart', moverNo);
+      noBtn.addEventListener('click', moverNo);
 
 
       siBtn.addEventListener('click', () => {
